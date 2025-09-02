@@ -1,3 +1,3 @@
-mvn clean verify -DbrowserName=chrome-headless
+mvn clean verify -DbrowserName=edg
 
 
