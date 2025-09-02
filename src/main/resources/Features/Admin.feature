@@ -22,5 +22,5 @@ Feature: Admin Functionality in Orange HRM
     And Admin click on delete button in Confirmation Message
     Then Admin should verify record count decreased by one
     Examples:
-      | username | password | employeeName | userName  | user password | userNameafterAdding |
-      | Admin    | admin123 | A            | Ahmed ali | Qa@12234      | Ahmed ali           |
+      | username | password | employeeName | userName   | user password | userNameafterAdding |
+      | Admin    | admin123 | A            | Ahmed ali2 | Qa@12235      | Ahmed ali2          |
