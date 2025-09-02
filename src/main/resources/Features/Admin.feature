@@ -16,11 +16,11 @@ Feature: Admin Functionality in Orange HRM
     And set Confirm Password as "<user password>"
     When save Results
     Then Admin should verify record count increased by one
-    Given Admin search for user "<userNameafterAdding>"
+    Given Admin search for user "<usernameafteradding>"
     And Admin click on Search button
     When Admin click on delete button to Delete User
     And Admin click on delete button in Confirmation Message
     Then Admin should verify record count decreased by one
     Examples:
-      | username | password | employeeName | userName   | user password | userNameafterAdding |
-      | Admin    | admin123 | A            | Ahmed ali2 | Qa@12235      | Ahmed ali2          |
+      | username | password | employeeName | userName      | user password | usernameafteradding |
+      | Admin    | admin123 | A            | Mohamed Ahmed | Qa@12235      | Mohamed Ahmed       |
