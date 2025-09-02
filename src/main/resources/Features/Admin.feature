@@ -24,6 +24,3 @@ Feature: Admin Functionality in Orange HRM
     Examples:
       | username | password | employeeName | userName  | user password | userNameafterAdding |
       | Admin    | admin123 | A            | Ahmed ali | Qa@12234      | Ahmed ali           |
-
-
-

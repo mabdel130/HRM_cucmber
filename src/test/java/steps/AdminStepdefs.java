@@ -122,6 +122,4 @@ public class AdminStepdefs {
         new Admin(getDriver()).verifythatthenumberofrecorddecreasedby1();
 
     }
-
-
 }

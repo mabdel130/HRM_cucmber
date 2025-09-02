@@ -60,10 +60,8 @@ public class Hooks_Page {
         setDriver(DriverFactory.getNewInstance(""));
         getDriver().get(PROJECT_URL);
         getDriver().manage().window().maximize();
-        // open browser network
         openBrowserNetworkTab();
     }
-
     @After
     public void quiteDriver() {
         Allure.addAttachment("Report", "Report5");
