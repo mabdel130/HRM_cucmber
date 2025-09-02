@@ -12,7 +12,7 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-## Introduction
+## Introduction to My Project
 
 **OrangeHRM is a widely used web-based Human Resource Management (HRM) application. It is designed for organizations to
 streamline HR processes and for QA professionals to practice testing scenarios. OrangeHRM is utilized for both manual
